@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url();
+  background-size: cover;
+  font-family: 'Crimson Text', serif;
+}
+nav {
+  width: 100%;
+  background: black;
+}
+ul{
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+  
+}
+ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 20px;
+
+}
+ul li :hover{
+	background: #B685A5;
+}
+ul li {
+  color: blue;
+  text-decoration: none;
+}
+.d-block{
+	width: 100%;
+	text-align: center;
+}
+p{
+	text-align: center;
+	
+	font-family: monospace;
+	color: #B685A5;
+}
+h1{
+	text-align: center;
+	padding: 20px;
+}
+.feature-img img{
+width: 100%;
+
+}
+.price{
+	width: 50px;
+	height: 50px;
+	background: #ff5722;
+	color: #fff;
+	font-weight: 600;
+	border-radius: 50%;
+	padding: 8px;
+	box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+	position: absolute;
+	left: 20px;
+	bottom: -25px;
+}
+.feature-img{
+	position: relative;
+
+}
+.rating{
+	padding: 3px;
+	float: right;
+	background: #fff;
+	bottom: -1px;
+	right: 0;
+	position: absolute;
+}
+.features .fa{
+	font-size: 12px;
+	color:#ff5722;
+
+}
+.feature-details{
+	padding: 5px;
+	text-align: justify;
+}
+.feature-details h4{
+	font-weight: 600;
+	margin-top: 20px;
+}
+.feature-details .fa{
+	margin-right: 5px;
+}
+.feature-box{
+	box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+	margin-bottom: 30px;
+}
+.gallery{
+	padding: 100px 0;
+	background: #efefef;
+
+}
+.gallery-box img{
+
+	width: 100%;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 1s;
+}
+.gallery-box img:hover
+{
+	transform: scale(1.1);
+}
+.gallery-box h4{
+	width: 200px;
+	color: #fff;
+	text-shadow: -2px 2px 2px #000;
+	text-align: center;
+	font-weight: 600;
+	position: absolute;
+	top: 50%;
+	left: 30%;
+	transform: translate(-50%,-50%);
+}
+.gallery-box {
+	position: relative;
+	margin-bottom: 30px;
+}
